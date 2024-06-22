@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em 1.5em;
+}
+
+.navbar .navbar-link-list {
+    padding-bottom: 1em;
+    list-style-type: none;
+}
+
+.main {
+    width: 50vw;
+    padding: 1.5em 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
