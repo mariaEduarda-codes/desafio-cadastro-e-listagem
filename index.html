@@ -23,27 +23,35 @@
 
     <section class="main">
         <form class="form">
-            <label for="name">Nome</label>
-            <input type="text" id="name">
-
-            <label for="description">Descrição</label>
-            <input type="text" id="description">
-
-            <label for="price">Valor</label>
-            <input type="number" id="price">
-
-            <p>Disponível para venda?</p>
-            <div class="radio-button">
-                <input type="radio" id="Yes" name="isAvailable" value="Yes">
-                <label for="Yes">Sim</label>
+            <div class="form-item">
+                <label for="name">Nome</label>
+                <input type="text" id="name">
             </div>
 
-            <div class="radio-button">
-                <input type="radio" id="No" name="isAvailable" value="No">
-                <label for="No">Não</label>
+            <div class="form-item">
+                <label for="description">Descrição</label>
+                <input type="text" id="description">
             </div>
 
-            <button type="submit">Cadastrar</button>
+            <div class="form-item">
+                <label for="price">Valor</label>
+                <input type="number" id="price">
+            </div>
+
+            <div class="form-item">
+                <p>Disponível para venda?</p>
+                <div class="radio-button">
+                    <input type="radio" id="Yes" name="isAvailable" value="Yes">
+                    <label for="Yes">Sim</label>
+                </div>
+
+                <div class="radio-button">
+                    <input type="radio" id="No" name="isAvailable" value="No">
+                    <label for="No">Não</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Cadastrar</button>
         </form>
     </section>
 

@@ -4,15 +4,22 @@
 }
 
 body {
-    padding: 2em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar .navbar-link-list {
-    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0;
     list-style-type: none;
+    gap: 1em;
 }
 
 .main {
+    align-self: center;
     width: 50vw;
     padding: 1.5em 0;
 }
@@ -20,4 +27,21 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+    margin: 0 25%;
+}
+
+.form-item input[type="text"], .form-item input[type="number"] {
+
+}
+
+.btn-submit {
+    margin: 0 25%;
 }
