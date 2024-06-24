@@ -21,7 +21,7 @@ submitButton.addEventListener('click', (e) => {
         body: JSON.stringify(data)
     }).then(res => res.json())
         .then(() => {
-            fetch('http://localhost:8080/product')  // Altere a URL conforme necessário
+            fetch('http://localhost:8080/product')
                 .then(response => response.json())
                 .then(data => {
                     listModal.style.display = 'block';
